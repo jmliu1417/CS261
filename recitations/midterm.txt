@@ -1,0 +1,3 @@
+I'm a bit confused on how the circular buffers work and how the sentinels work.
+It'd also be nice to go over how to calculate runtime complexity a bit more (with some
+more examples) 

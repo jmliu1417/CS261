@@ -1,0 +1,33 @@
+ex1. We think the numbers swap each time the current index is larger than the 
+previous index's value, decreasing from the length of the array and 
+arranging the values in ascending order
+
+the correct sequence would follow:
+-21 0 1 3 12 15 51 83 135 659
+
+ex2.
+1 -> 0
+2 -> 1
+5 -> 1
+15 -> 0
+16 -> 0
+
+we think it calculates prime numbers
+
+pointers.
+1. first one would print the addresses because they used "%p" as the format specifier
+2. 200, 101, 102, 103. Set the pointer c equal to the array a, and set the first value
+    to 200. The rest of the double values follow from 100+ (with exception of the) 
+    first value
+3.  c is a pointer to a, and would change its values when assigning. the first
+    value doesn't change, but assigns index 1 to 300, then index 2 to 301, and
+    index 3 to 302 in fun and exciting new ways. 
+
+    we add c by 2 (increasing the amount of bytes) and then dereferences to change
+    the value
+4.  we only modify the second index (or index 1) of the array to 400 using the 
+    method above
+5.  set c to a char pointer, and add one byte. It overrides the second index
+    when it the c char pointer gets set to 500
+6.  b becomes a pointer to a[1], and then c points to some part between a[1] and 2.
+    the memory addresses get printed out

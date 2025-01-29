@@ -1,0 +1,6 @@
+1. we decided unaminously that a linked list would be a btter
+option, as it has a constant time complexity when it comes
+to inserting and etc.
+
+We chose linked lists because the prompt always iterates
+sequentially and does not need random access.
